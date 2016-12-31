@@ -7,6 +7,19 @@ Xft.lcdfilter: lcddefault
 URxvt.scrollBar: false
 URxvt*font: xft:Monospace-12:antialias=true
 
+! Rofi
+rofi.font:      Hack 15
+rofi.width:     30
+rofi.lines:     10
+rofi.columns:   1
+rofi.bw:        1
+rofi.opacity:   80
+!                  bg       fg       altbg    hlbg     hlfg
+rofi.color-normal: #222222, #f1ebeb, #222222, #f1ebeb, #222222
+rofi.color-urgent: #222222, #f1ebeb, #222222, #f1ebeb, #222222
+rofi.color-active: #222222, #f1ebeb, #222222, #f1ebeb, #222222
+rofi.color-window: #222222, #f1ebeb
+
 ! Colors
 ! special
 *.foreground:   #f1ebeb
@@ -37,3 +50,6 @@ URxvt*font: xft:Monospace-12:antialias=true
 *.color7:       #acada1
 *.color15:      #edede8
 
+! Xautolock
+Xautolock.locker:   /usr/bin/i3lock -i $HOME/Pictures/brba.png
+Xautolock.time:     3
