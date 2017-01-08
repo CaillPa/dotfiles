@@ -52,4 +52,4 @@ rofi.color-window: #222222, #f1ebeb
 
 ! Xautolock
 Xautolock.locker:   /usr/bin/i3lock -i $HOME/Pictures/brba.png
-Xautolock.time:     3
+Xautolock.time:     2
