@@ -2,7 +2,7 @@ set nocompatible
 
 syntax on
 
-colorscheme jellybeans
+colorscheme vice
 
 set background=dark
 
